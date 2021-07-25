@@ -1,0 +1,14 @@
+.buyButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(45, 148, 45);
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 16px;
+  height: 25px;
+  width: 50px;
+  border-radius: 8px;
+}

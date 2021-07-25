@@ -1,0 +1,56 @@
+.orderPage {
+  display: flex;
+  justify-content: center;
+}
+
+.orderBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  border: 2px dotted rgb(189, 189, 189);
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.orderHeader {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(107, 107, 107);
+}
+
+.orderRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoLabel {
+  margin-right: 50px;
+  margin-left: 50px;
+  color: gray;
+}
+
+.submitOrder {
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(51, 156, 51);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cancelOrder {
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(194, 41, 41);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
